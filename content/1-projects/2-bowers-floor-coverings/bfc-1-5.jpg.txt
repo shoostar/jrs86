@@ -1,0 +1,17 @@
+Sort: 7
+
+----
+
+Width: w--1of1
+
+----
+
+Offset: 
+
+----
+
+Imagewidth: w--4of5
+
+----
+
+Imageoffset: 

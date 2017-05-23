@@ -1,0 +1,55 @@
+Title: (obligatory 'hello world' post)
+
+----
+
+Coverimage: 
+
+----
+
+Date: 2017-05-17
+
+----
+
+Text: 
+
+#####My name is Done
+I'm not entirely sure how long this project has actually dragged out, but I've owned an unused personal license to Kirby CMS for about 5 years now. Before this current project even came about, I had originally built my site on AnchorCMS, 9 years back.
+
+#####So, where has all the time gone?
+Absolutely nowhere. Designing for yourself is difficult; usually, the project ends up in website purgatory for the next 10-15 years. It eventually gets finished. Maybe. This one did, kinda.
+
+#####Making easier decisions
+Overthinking the entire design to start with, I spent the majority of 2015 trying to teach myself Flexbox on the fly. I refactored CSS that was already being used elsewhere for other projects. I stripped, mangled, and re-purposed JS in every corner for objects I wasn't even using. I was designing a web framework for *others* to use, not myself.
+
+#####Complacency as a motive
+The second reason for my finally finishing this site, is that I'm terribly sick of where I work (rather, *who* I work for). Without a decent and well-planned portfolio, I haven't a chance in hell at landing a better job (let alone a job that's any improvement over my current position).
+
+#####Less is more
+I've finally come to the realization that simple is better. I haven't coded anything I don't/won't need, I'm not concerned about the clarity of fields in the CMS panel, and I'm not worried about having a piece of variable data for every bit of info on this site.
+
+#####Be faithful
+Writing sucks. Especially opinions. My opinion sucks, and so does yours. I personally don't feel like writing about it, so I like to keep things short and sweet. Just like all my notes. This has also forced me to consider my writing 'language', or the style in which I write. Sentences should be less than 10 words. They should also include obscenities.
+
+----
+
+Excerpt: I've finally finished my website; here's a look at everything that makes it tick
+
+----
+
+Link-text: Read note
+
+----
+
+Linktext: What took so long?
+
+----
+
+Published: 2017-05-17
+
+----
+
+Tags: test,apple,crust,juice
+
+----
+
+Related: notes/years-offset-press-room-notes, notes/your-clients-are-dumb-let-them-know

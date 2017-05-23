@@ -1,0 +1,46 @@
+title: About
+
+pages: false
+
+files: true
+
+options:
+  template: false
+  status: false
+
+fields:
+  title:
+    label: Title
+    type: title
+
+  about1title:
+    label: Title 1
+    type: text
+
+  about1text:
+    label: Text 1
+    type: textarea
+
+  about2title:
+    label: Title 2
+    type: text
+
+  about2text:
+    label: Text 2
+    type: textarea
+
+  about3title:
+    label: Title 3
+    type: text
+
+  about3text:
+    label: Text 3
+    type: textarea
+
+  about4title:
+    label: Title 4
+    type: text
+
+  about4text:
+    label: Text 4
+    type: textarea

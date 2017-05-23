@@ -1,0 +1,9 @@
+Imagewidth: w--4of5
+
+----
+
+Imageoffset: 
+
+----
+
+Shadowed: false

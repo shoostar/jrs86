@@ -1,0 +1,21 @@
+Sort: 4
+
+----
+
+Width: w--3of5
+
+----
+
+Offset: 
+
+----
+
+Imagewidth: w--3of5
+
+----
+
+Imageoffset: 
+
+----
+
+Shadowed: true

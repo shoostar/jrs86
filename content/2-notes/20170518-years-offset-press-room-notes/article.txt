@@ -1,0 +1,41 @@
+Title: 5 years offset: press room notes
+
+----
+
+Date: 2017-05-18
+
+----
+
+Published: 2017-05-18
+
+----
+
+Linktext: Inklings of info
+
+----
+
+Excerpt: A disorganized collection of tips, ideas, and unanswered questions from the production room
+
+----
+
+Text: 
+
+(image: ymck.svg)
+
+**CTRL + ALT + M &rarr; 0.01 &rarr; TAB &rarr; 0 &rarr; ENTER**
+(don't forget to set up a customer flattener profile)
+
+It's best to just add **bleed & slug** to everything
+**(0.125" bleed / 0.675" slug)**
+
+**30/30/30/100** = saturated black
+
+**62/31/0/0** = CutPath
+
+#####YOUR CUSTOMERS
+&mdash;will never have a calibrated monitor
+&mdash;are NOT always right; this is not Burger King, shit don't get done "your way"
+
+----
+
+Related: 

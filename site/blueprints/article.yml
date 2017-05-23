@@ -1,0 +1,69 @@
+title: Article
+
+pages: false
+
+files:
+  sortable: true
+  fields:
+    imageWidth:
+      label: Width
+      type: select
+      options:
+        w--2of5: 40%
+        w--3of5: 60%
+        w--4of5: 80%
+        w--1of1: 100%
+      default: w--2of5
+    imageOffset:
+      label: Offset
+      type: select
+      options:
+        o--1of5: 20%
+        o--2of5: 40%
+        o--3of5: 60%
+    shadowed:
+      label: Shadow Effect
+      type: radio
+      default: false
+      options:
+        true: Add a drop-shadow
+        false: No shadow
+
+fields:
+  title:
+    label: Title
+    type:  title
+
+  date:
+    icon: calendar
+    label: Date
+    type: date
+    format: MM/DD/YYYY
+    placeholder: Select a date…
+    default: today
+    required: true
+    width: 1/2
+
+  linktext:
+    label: 'Read note' button text
+    type: text
+    width: 1/2
+    default: Read note
+    required: true
+
+  excerpt:
+    label: Excerpt
+    type: textarea
+
+  related:
+    label: Further Reading
+    type: multiselect
+    search: true
+    options: query
+    query:
+      fetch: siblings
+      value: '{{id}}'
+
+  text:
+    label: Text
+    type: markdown

@@ -1,0 +1,56 @@
+Title: about
+
+----
+
+Intro: Jon is a graphic and production artist from Michigan. Born in '86. Learned to listen more than speak, but makes himself heard when he needs to. Avid Red Wings fan, games far too much, enjoys driving. Right now he's <span id="text"></span> at <a href="http://nopp.com/" target="_blank">NOPP</a>, but he's looking to expose his creative talents to a larger and far more visible market. Still adding stuff to this portfolio; sorry.
+
+----
+
+Text: I'm no expert at building websites; I look at it as more of a hobby. I did build this website, though. HTML5, CSS3, a sprinkle of JS, all piled on top of (link: https://getkirby.com text: Kirby CMS rel: noopener noreferrer target: _blank). It's all being open-sourced on my (link: https://github.com/shoostar text: Github rel: noopener noreferrer target: _blank) page.
+
+----
+
+About1title: pleased to meet you
+
+----
+
+About1text: 
+
+<ul class="also">
+        <li>War Memorial Hospital</li>
+        <li>Hinkson Properties</li>
+        <li>BVD Taxidermy</li>
+        <li>R+S Renovations</li>
+        <li>D.Beacom &amp; Sons Insurance</li>
+        <li>Continental Tires</li>
+        <li>Pullar Stadium</li>
+      </ul>
+
+----
+
+About2title: don't have to guess my name
+
+----
+
+About2text: Jon is a graphic and production artist from Michigan. Born in '86. Learned to listen more than speak, but makes himself heard when he needs to. Avid Red Wings fan, games far too much, enjoys driving. Right now he's <span id="text">creating beautiful art</span> at (link: http://nopp.com text: NOPP rel: noopener noreferrer target: _blank), but he's looking to expose his creative talents to a larger and far more visible market. Still adding stuff to this portfolio; sorry.
+
+----
+
+About3title: fixing what's puzzling you
+
+----
+
+About3text: 
+
+Come visit me sometime
+currently (link: https://www.google.com/maps/place/Sault+Ste.+Marie,+MI+49783/@45.0426395,-104.432446,3.5z/data=!4m5!3m4!1s0x4d366aa6883bdfc7:0x600890f3bceefd8b!8m2!3d46.4313095!4d-84.2810691 text: 49783, USA rel: noopener noreferrer target: _blank)
+
+or (email: hi@jrs86.com text: email me) — (link: https://linkedin.com/in/jonschuster text: LinkedIn rel: noopener noreferrer target: _blank) — (link: https://twitter.com/jon_schuster text: Twitter rel: noopener noreferrer target: _blank) — (file: jschuster-resume.pdf text: my resume)
+
+----
+
+About4title: is just the nature of my game
+
+----
+
+About4text: I'm no expert at building websites; I look at it as more of a hobby. I did build this website, though. HTML5, CSS3, a sprinkle of JS, all piled on top of (link: https://getkirby.com text: Kirby CMS rel: noopener noreferrer target: _blank). It's all being open-sourced on my (link: https://github.com/shoostar text: Github rel: noopener noreferrer target: _blank) page.

@@ -1,0 +1,22 @@
+title: Projects
+
+icon: paint-brush
+
+files: false
+
+pages:
+  template: project
+
+options:
+  template: false
+  status: true
+  url: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+
+  text:
+    label: Text
+    type:  textarea

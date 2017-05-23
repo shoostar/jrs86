@@ -1,0 +1,69 @@
+title: Project
+
+icon: paint-brush
+
+files:
+  sortable: true
+  fields:
+    imageWidth:
+      label: Width
+      type: select
+      options:
+        w--2of5: 40%
+        w--3of5: 60%
+        w--4of5: 80%
+        w--1of1: 100%
+      default: w--2of5
+    imageOffset:
+      label: Offset
+      type: select
+      options:
+        o--1of5: 20%
+        o--2of5: 40%
+        o--3of5: 60%
+    shadowed:
+      label: Shadow Effect
+      type: radio
+      default: false
+      options:
+        true: Add a drop-shadow
+        false: No shadow
+
+pages: false
+
+fields:
+  title:
+    label: Title
+    type:  text
+    width: 3/4
+
+  year:
+    label: Year
+    type:  text
+    width: 1/4
+
+  color:
+    label: Primary Color
+    type:  text
+    width: 1/2
+
+  categories:
+    label: Categories
+    type: checkboxes
+    columns: 4
+    options:
+      stationery: stationery
+      branding concept: branding concept
+      packaging concepts: packaging concepts
+      branding: branding
+      product packaging: product packaging
+      local advertising: local advertising
+      printed collateral: printed collateral
+      signage: signage
+      type exploration: type exploration
+      print concepts: print concepts
+      vehicle vinyl: vehicle vinyl
+      poster series: poster series
+      social media graphics: social media graphics
+      website: website
+      apparel: apparel

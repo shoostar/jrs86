@@ -1,0 +1,105 @@
+Title: Your clients are dumb; let them know
+
+----
+
+Published: 2017-05-18
+
+----
+
+Linktext: Start shit, finish it
+
+----
+
+Excerpt: Celebrating my fifth year as a professional graphic & production artist, I share with you 5 times I beat my client up, and still won the contract
+
+----
+
+Text: 
+
+> Clients aren't dumb, they just don't know what you know and dont think about the work the way you do.
+ 
+I was speaking with an interaction designer at Thinktiv the other day. He'd been managing a particular client engagement, and was remarking on the inability of that particular client to remember a design decision from day to day. He wasn't complaining; he was mostly reflective, and wondering why the client was unable to achieve a sense of focus and clarity around the product as it was being designed. The client was an entrepreneur and founder, and this particular product was to be his company’s flagship offering. Why, then, couldn't he remember details and conversations and make concrete decisions to move the product forward?
+
+I've heard this, and similar questions, a lot in the client service business:
+* Why is the client making a decision about one part of the product that doesn't consider the effect on another part of the product?
+* Why is the client rehashing decisions that were made weeks and months ago?
+* Why is the client so myopic, focused on such insignificant details?
+* Why is the client so high-level, seemingly uninterested in any details?
+* All of these questions seem to imply an unstated point: why don’t they do things my way? Why is the client being so stupid?
+
+There's a simple answer to the question, but it has complex implications. Clients aren’t stupid. They aren’t doing things your way because they don't know what you know, and they don't think about products and problems the way you think about them.
+
+Assuming you are a competent designer, you’ve developed a tacit process for solving problems. You know what steps to take, and when to take them. You've worked on similar problems and projects, and you can anticipate how things will turn out ahead of time. You can leverage your expertise to make informed decisions without all of the data. You can anticipate which visual or semantic changes will work and which won't, and you don't need to produce an artifact in its entirety in order to judge it.
+
+Your client doesn't, can't, and won't. He'll need to see entire design artifacts, completely designed, in order to make decisions. He'll need explicit versions to compare and contrast, with real content and real design elements in place. He won't be able to describe his reactions to aesthetics in any cogent way, and won’t know the right actions to take at the right times to ensure design work is completed successfully.
+
+Where you see a system, clients see a discrete component or feature. While you likely consider the user first, they likely focus on the market or technology. And where your motivation is entirely focused on the "designed artifact," it's but one small part to them—often, the most insignificant part.
+
+This is all common sense, of course; why should a client, who likely has no training in design, no background in design, and little experience with designers, know how and why you go about your job? Why should we expect non-designers to have a rich visual vocabulary, or a strong user-centered focus, or a robust process for solving problems?
+
+As professionals, we achieve something called an expert blind spot. Simply put, we've forgotten what it's like not to know something. We have tacit knowledge built up regarding our methods, process, and the importance of our roles, and so we've forgotten just how intimidating a design problem and process can be, and how fuzzy our approach looks from the outside. For clients, this intimidating and vague process is compounded by everything they have at stake—often their jobs, credibility or, in the case of a startup, their personal fortunes. And so anxiety builds, and we see our clients make decisions that seem rash, shortsighted, or just plain stupid.
+
+#### Constantly Teaching
+Good teachers know their students aren’t generally stupid—they simply haven’t learned things yet. And so a good teacher patiently creates an environment in which learning occurs, and acts as a source of knowledge based on experience.
+
+Your clients are your students. You need to teach them what you know. It’s not that hard, but it’s a constant and time-consuming effort. It requires a proactive stance where you anticipate what a client will need to know and when he’ll need to know it. And it requires an extremely patient interpersonal style. It’s called constantly teaching because it’s a continual process. It’s a layer on top of your existing design process and practice that will help improve the quality of your client relationships.
+
+#### Drive Proactive Education
+Constantly teaching requires a continual and open assessment of the process of design. You'll find yourself asking, and answering, these questions nearly every day:
+
+What activities are you going to do?
+What does each activity entail?
+Why are you selecting these activities, as opposed to any other?
+Where did the activity come from, and why does it work?
+For example, when my company conducts contextual research, we make an explicit effort to describe the methods we'll use, and it sounds something like this:
+
+We'll be conducting a form of research at the beginning of our process using a method called contextual inquiry. It's a method that's been used for decades by designers, and it's a form of applied ethnography. Simply put, we'll go into the workplace of your users and watch them use their tools as they do their jobs. We'll probably spend time with 5-6 users, and each session will last about an hour or two. It may seem like other methods you've used before (such as focus groups) but the biggest difference is that we'll observe real behavior rather than hypothetical conjecture. We've picked this method because it's one of the quickest ways we've found to identify hidden wants, needs, and desires in our users. And we would like you to participate in the contextual inquiry process with us.
+What things are you going to make?
+Why are you going to make them?
+When will they be done?
+How do they support my business goals?
+In the above example, we usually describe the types of synthesis we perform on the data:
+
+Conducting the research will give us some good data, but the data alone isn't going to be very useful. We'll transcribe the data, and then we'll "explode" the transcript into small bite-size quotes and actions. To do this, we'll print each utterance on a card, along with its line number in the transcript. Then we can blend quotes across participants and find themes and anomalies. Each theme and anomaly becomes an opportunity for insight—a chance to change the way work is done to improve efficiency or happiness, or to create new valuable tools and services for your customers. This whole process is called synthesis, and we'll start working on it next week. We would like you to be involved in the process, time permitting. But if you can't be there, we'll deliver a summary of these themes and anomalies at the end of the process by next Friday. Then we'll use each of these themes and anomalies as a starting point for use cases and new scenarios.
+Each method is described and rationalized. The value is described. The timeframe is discussed. And the client is, ideally, included.
+
+#### Include More Touchpoints
+This type of meta-discussion of process takes time, and naturally implies more interactions with your client. These aren’t necessarily meetings; they are design sessions. I've found many designers to be extremely sensitive about designing with a client present, but this type of facilitated workshop is critical to mitigate the expert blindspot problem. It requires the client be in the same room as the design group, often participating in the same activities (including research, synthesis, ideation, sketching, prototyping, and more).
+
+At each engagement, I clearly describe where in the process we are. I show a simple timeline, and discuss how many weeks remain in the project and particular phase of the process. And I try to go out of my way to describe constraints that are beginning to emerge.
+
+In the above example, a client can easily participate in design synthesis activities, helping to move individual utterance cards around on a wall and discussing the implications of these statements. By reading and discussing actual quotes from real or potential customers, clients are able to build the same empathetic ties that designers strive to create. This can change entire product development and go-to-market strategies.
+
+#### Offer Flexibility on Approach
+As you educate your clients, they will begin to understand more about the types of things you want to do to help solve their problems. And as a result of this understanding, they'll develop their own points of view about what should be done, when it should be done, and how long it will take. I've found that the most effective form of constantly teaching requires significant flexibility concerning schedule and activities.
+
+#### We constantly hear clients say things like:
+I know you’ve got ten weeks left in the project, but we really need to have something to market in four or five weeks. This is absolutely not negotiable.
+For many designers, this causes anxiety. They see an end-state of a completed, robust, and properly designed product, and they know it's nearly impossible to develop their vision in such a short timeframe. What they fail to realize is that the client's expectation about the "something" that needs to be brought to market is drastically different than their own, and it can be achieved in a staged manner and with a degree of compromise around schedule. The client needs a footprint, often for product demos, a tradeshow, or a press release. But this footprint need not be comprehensive or complete. We experienced this very conversation recently, and it sounded like this:
+
+Client: I know you’ve got ten weeks left in the project, but we really need to have something to market in four or five weeks. This is absolutely not negotiable. We need our users to be able to pay for our reports and download them.
+Designer: Okay… we're about a third of the way through designing the comprehensive system, which includes account creation, billing system integration, robust analytics, and a custom report generator. We can keep working on this "v1" product, but it isn't scheduled to be done for a few months. But we can design a much simpler version of the system in the next few weeks, and then continue on the main product. What if you manually send invoices to customers, and the billing integration is pushed to a later version? What if the report is manually emailed to customers upon payment, and custom reporting is pushed to a later version too? What if all account creation is manual? What are other areas where we can remove functionality in the short-term?
+Client: This sounds like a good approach. Help me understand the roadmap to see those future versions come to life.
+The "thing" that the client needs to be on the market is often dramatically smaller than the "thing" envisioned by the designer. By fostering a dialogue, providing flexibility in the schedule, and constantly teaching, you can usually find a way to satisfy the client and still drive your design vision that meets user needs and offers robust power.
+
+#### Have a Passionate Point of View on Content
+Where constantly teaching demands a large degree of flexibility on scheduling, it also drives a more rigid and passionate point of view on the content of deliverables—the actual design outputs. As you educate your clients, it will become more apparent to them that you, as a designer, offer a unique and highly specialized skill set. Simply put, you can do things they can't do. Your advocacy for a particular design solution, often driven by empathy and a user-centered focus, should be supported by conversation and discussion, but it should be generally uncompromising. And you will have achieved the necessary partnership and mutual respect through constantly teaching, helping to drive your particular agenda and product vision to fruition.
+
+Client: I would like to see you explore a few more revisions of that flow before we call it done.
+Designer: Since we're bringing a limited product to market prior to our v1, to support your press strategy, we unfortunately don't have time to pursue another exploration of that particular flow. I'll be happy to describe each of the navigation and UI elements we've included, and we can easily mark things for future exploration once we get past the v1 product. But right now, we'll have to lean on my expertise and the findings from the research; it's why you hired me, after all!
+This type of pushback is usually received poorly in a typical agency relationship, one that pits the client against the “vendor.” But in an ongoing partnership, one where you've been communicating in person two or three times a week, clients will typically accept this type of comment that leverages your expertise. If you’ve established enough mutual respect through your patient teaching and close communication, a client will typically yield actual design questions to your design expertise.
+
+#### In Summary
+There are good clients and bad clients, but for the most part your clients aren’t stupid. They don’t know what you know, and they don’t think about the work the way you think about it. Fundamentally, the constantly teaching approach expands the role of the designer and demands a more transparent method to client services. Designers who embrace this approach will find themselves frequently in difficult situations with clients, in conversations that require quick thinking, and in heated discussions regarding topics of finances, schedule, approach, process, technique, and value. These types of conversations are usually "handled" by a creative director, and mid- and junior-level designers will have little or no training in these types of interactions. Given the opportunity, they'll fail—likely more than once—and the failure can have large repercussions. But for those who are allowed to practice the approach with mentorship and guidance will soon find they've formed relationships with clients, and they'll begin to understand why clients do and say the things they do. These designers will be empowered to reach out directly to clients, and as they are constantly teaching, they'll gain an unprecedented level of meta-awareness and confidence regarding their own process and decisions.
+
+----
+
+Tags: apple,pie,winter
+
+----
+
+Date: 2017-05-18
+
+----
+
+Related: 

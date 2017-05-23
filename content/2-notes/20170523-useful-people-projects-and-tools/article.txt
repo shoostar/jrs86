@@ -1,0 +1,38 @@
+Title: Useful people, projects, and tools
+
+----
+
+Date: 2017-05-23
+
+----
+
+Linktext: Learn from the better
+
+----
+
+Excerpt: There's not way in hell I'd be anywhere near this level in my career, if it weren't for these inspirations
+
+----
+
+Related: notes/years-offset-press-room-notes, notes/quotes-to-not-live-by
+
+----
+
+Text: 
+
+### People
+(link: https://molovo.co/ text: James Dinsdale)—developer of Zulu, ZUnit and Phillip, as well as some other cool projects.
+ 
+(link: https://bastianallgeier.com/ text: Bastian Allgeier)—founder and lead developer of Kirby CMS, the software behind this website.
+<br><br>
+### Projects
+(link: https://getkirby.com/ text: Kirby CMS)—the software behind this website.
+ 
+(link: https://ghost.org/ text: Ghost)—a lightweight Node.js blog platform.
+<br><br>
+### Tools
+(link: https://atom.io/ text: Atom)—my code editor of choice.
+ 
+(link: https://desktop.github.com/ text: Github for Windows)—the desktop UI version of Github.
+ 
+(link: http://http://myth.io/ text: Myth CSS)—a simple CSS preprocessor that allows for the use of native CSS variables
