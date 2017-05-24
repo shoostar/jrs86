@@ -15,3 +15,7 @@ Imagewidth: w--2of5
 ----
 
 Imageoffset: o--1of5
+
+----
+
+Shadowed: true
