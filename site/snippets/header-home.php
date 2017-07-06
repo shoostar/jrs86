@@ -60,8 +60,17 @@
 
   <main>
     <a class="skip-main" href="#main" tabindex="-1">Skip to main content</a>
+
+
     <div class="cover parallax lazy" data-src="assets/images/profile-bg.jpg"></div>
-    <header class="row">
+
+
+    <header class="row cover-container">
+      <picture class="cover-image duotone blue">
+        <source data-srcset="https://unsplash.it/3000?image=906" media="(min-width: 1024px)" />
+        <source data-srcset="https://unsplash.it/2000?image=906" media="(min-width: 768px)" />
+        <img class="b-lazy" data-src="https://unsplash.it/1000?image=906" alt="Unsplash.it" />
+      </picture>
       <div class="w--3of5 pinned">
         <h3 class="heading"><a class="glitch-btn modal-btn" href="<?= url() ?>" rel="home">
           <span class="glitch super-glitch" data-text="JRS⁸⁶">

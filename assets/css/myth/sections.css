@@ -1,0 +1,119 @@
+/* HEADER */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: calc(8.13 * var(--boxpadding)/2);
+  padding-bottom: calc(8.13 * var(--boxpadding)/2);
+}
+
+
+
+
+/* MAIN and SECTION */
+main {
+  background-color: color(var(--black) shade(81.3%));
+  transition: background-color 0.5s ease;
+  min-height: 100%;
+}
+section {
+  padding-bottom: calc(8.13 * var(--gridpadding));
+}
+article:not(:last-of-type) {
+  margin-bottom: calc(8.13 * var(--gridpadding));
+}
+  article nav {
+    margin-top: calc(8.13 * var(--gridpadding));
+  }
+    article nav a {
+      display: block;
+    }
+
+
+
+/* Parallax bullshit */
+  .cover::after {
+    height: 8.13em;
+    width: 100%;
+    display: block;
+    content: '';
+    background-image: linear-gradient(color(var(--black) shade(81.3%) alpha(0%)), color(var(--black) shade(81.3%)));
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+
+
+  /* Covers, use like any other template-area, except with a specified height */
+  .cover-container {
+    min-height: 31.8em;
+    height: 100%;
+    position: relative;
+    overflow: hidden !important;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+    .cover-subcontainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      height: 100%;
+      width: 100%;
+    }
+    .cover-image {
+      position: absolute;
+      z-index: 0;
+      height: 100%;
+      overflow: hidden;
+    }
+    .cover-content {
+      position: relative;
+      z-index: 1;
+    }
+
+
+
+.resume {
+  display: inline-block;
+}
+  .resume::after {
+    content: '.PDF';
+    color: color(var(--black) tint(81.3%));
+  }
+
+
+
+/* Articles */
+article header {
+  margin-bottom: 5.3125em;
+}
+
+
+
+/* FOOTER */
+footer.temp {
+  padding-bottom: calc(8.13 * var(--gridpadding));
+}
+
+
+
+@media screen and (max-width: 1199px) {
+  header [class*='w--'], footer [class*='w--'] {
+    flex: 1 0 calc(100% - var(--gridpadding));
+  }
+}
+
+
+[class*='-btn'] {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+  .activity-btn, .activity-btn::before {
+    color: color(var(--black) tint(75%));
+  }
+  .activity-btn::before {
+    content: '\00a0+\00a0';
+  }

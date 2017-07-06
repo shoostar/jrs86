@@ -1,7 +1,7 @@
 <!-- <?= $site->copyright()->kirbytext() ?> -->
 </main>
 
-<script src="//code.jquery.com/jquery-2.2.4.min.js" defer></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js" defer></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js" defer></script>
 <script>
 function downloadJSAtOnload() {

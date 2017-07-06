@@ -1,0 +1,39 @@
+header nav {
+  position: relative;
+  z-index: 100;
+  text-align: left;
+}
+  @media screen and (min-width: 1200px) {
+    header nav {
+      text-align: right;
+    }
+  }
+  header nav a {
+    display: inline-block;
+    border-bottom: none !important;
+    color: color(var(--black) tint(100%));
+    font-weight: 500;
+  }
+    header nav a:hover {
+      color: color(var(--white) alpha(0%));
+    }
+    header nav a:not(:first-child) {
+      margin-left: 1em;
+    }
+      .active-page {
+        display: none;
+        backface-visibility: hidden;
+      }
+    header nav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 0.125em;
+      background: var(--red);
+      position: relative;
+      top: -0.5em;
+      transition: width 0.1s ease-in-out;
+    }
+      header nav a:hover::after {
+        width: 100% !important;
+      }
