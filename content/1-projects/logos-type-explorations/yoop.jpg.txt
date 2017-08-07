@@ -1,0 +1,13 @@
+Imagewidth: w--3of5
+
+----
+
+Imageoffset: 
+
+----
+
+Shadowed: true
+
+----
+
+Sort: 11

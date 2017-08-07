@@ -1,0 +1,13 @@
+Imagewidth: w--2of5
+
+----
+
+Imageoffset: 
+
+----
+
+Shadowed: false
+
+----
+
+Sort: 2

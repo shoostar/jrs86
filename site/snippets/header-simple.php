@@ -28,6 +28,17 @@
       ga('require', 'GTM-KVMRQ8V');
       ga('send', 'pageview');
     </script>
+
+    <style>
+      /* This is for lazy-loading bg images */
+      .lazy {
+        opacity: 0;
+        transition: opacity 0.5s ease-in-out;
+      }
+      .lazy-loaded {
+        opacity: 1 !important;
+      }
+    </style>
   </head>
 
   <body>

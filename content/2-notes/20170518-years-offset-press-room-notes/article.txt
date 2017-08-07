@@ -22,7 +22,7 @@ Text:
 
 (image: ymck.svg)
 
-**CTRL + ALT + M &rarr; 0.01 &rarr; TAB &rarr; 0 &rarr; ENTER**
+**CTRL + ALT + M → 0.01 → TAB → 0 → ENTER**
 (don't forget to set up a customer flattener profile)
 
 It's best to just add **bleed & slug** to everything
@@ -33,8 +33,8 @@ It's best to just add **bleed & slug** to everything
 **62/31/0/0** = CutPath
 
 #####YOUR CUSTOMERS
-&mdash;will never have a calibrated monitor
-&mdash;are NOT always right; this is not Burger King, shit don't get done "your way"
+—will never have a calibrated monitor
+—are NOT always right; this is not Burger King, shit don't get done "your way"
 
 ----
 

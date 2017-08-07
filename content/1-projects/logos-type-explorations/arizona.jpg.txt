@@ -1,0 +1,13 @@
+Imagewidth: w--3of5
+
+----
+
+Imageoffset: o--1of5
+
+----
+
+Shadowed: false
+
+----
+
+Sort: 13

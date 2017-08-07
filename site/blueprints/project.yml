@@ -9,6 +9,7 @@ files:
       label: Width
       type: select
       options:
+        w--1of5: 20%
         w--2of5: 40%
         w--3of5: 60%
         w--4of5: 80%

@@ -1,19 +1,15 @@
-<?php snippet('header') ?>
+<?php snippet('header-simple') ?>
 
-  <main class="main" role="main">
+<section class="row">
+  <div class="w--3of5 pinned">
+     <h1><?= $page->title()->html() ?></h1>
+     <div class="intro text">
+       <?= $page->intro()->kirbytext() ?>
+     </div>
+     <hr />
 
-    <header class="wrap">
-      <h1><?= $page->title()->html() ?></h1>
-      <div class="intro text">
-        <?= $page->intro()->kirbytext() ?>
-      </div>
-      <hr />
-    </header>
-      
-    <div class="text wrap">
       <?= $page->text()->kirbytext() ?>
-    </div>
-
-  </main>
+     </div>
+    </section>
 
 <?php snippet('footer') ?>

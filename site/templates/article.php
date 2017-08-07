@@ -13,7 +13,6 @@ article > header {
 
       <header>
         <h4><?= $page->title()->html() ?></h4>
-        <strong>added <?= $page->published()->relativeDate() ?></strong>
       </header>
 
       <?= $page->text()->kirbytext() ?>

@@ -66,17 +66,12 @@
 
 
     <header class="row cover-container">
-      <picture class="cover-image duotone blue">
-        <source data-srcset="https://unsplash.it/3000?image=906" media="(min-width: 1024px)" />
-        <source data-srcset="https://unsplash.it/2000?image=906" media="(min-width: 768px)" />
-        <img class="b-lazy" data-src="https://unsplash.it/1000?image=906" alt="Unsplash.it" />
-      </picture>
       <div class="w--3of5 pinned">
         <h3 class="heading"><a class="glitch-btn modal-btn" href="<?= url() ?>" rel="home">
           <span class="glitch super-glitch" data-text="JRS⁸⁶">
             <span class="pro">JRS<sup>86</sup></span>
           </span>
-        </a> builds durable brands. <span id="author">He does other things, too</span>.</h3>
+        </a> builds durable brands.</h3>
       </div>
       <div class="w--2of5 text-right pinned">
         <?php snippet('menu') ?>
