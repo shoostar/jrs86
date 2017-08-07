@@ -14,25 +14,31 @@ Excerpt: There's not way in hell I'd be anywhere near this level in my career, i
 
 ----
 
-Related: notes/years-offset-press-room-notes, notes/quotes-to-not-live-by
+Related: notes/years-offset-press-room-notes
 
 ----
 
 Text: 
 
 ### People
-(link: https://molovo.co/ text: James Dinsdale)—developer of Zulu, ZUnit and Phillip, as well as some other cool projects.
+(link: https://molovo.co/ text: James Dinsdale)—developer of Zulu, ZUnit and Phillip, as well as some other cool projects
  
-(link: https://bastianallgeier.com/ text: Bastian Allgeier)—founder and lead developer of Kirby CMS, the software behind this website.
+(link: https://bastianallgeier.com/ text: Bastian Allgeier)—founder and lead developer of Kirby CMS, the software behind this website
+
+(link: https://abduzeedo.com/ text: Fabio Sasso/Abduzeedo)—I have followed Fabio's blog since it was, well, a blog. Now it's so much more
 <br><br>
 ### Projects
-(link: https://getkirby.com/ text: Kirby CMS)—the software behind this website.
+(link: https://getkirby.com/ text: Kirby CMS)—the software behind this website
  
-(link: https://ghost.org/ text: Ghost)—a lightweight Node.js blog platform.
+(link: https://ghost.org/ text: Ghost)—a lightweight Node.js blog platform
 <br><br>
-### Tools
-(link: https://atom.io/ text: Atom)—my code editor of choice.
+### Tools & Other Stuff
+(link: https://atom.io/ text: Atom)—my code editor of choice
  
-(link: https://desktop.github.com/ text: Github for Windows)—the desktop UI version of Github.
+(link: https://desktop.github.com/ text: Github for Windows)—the desktop UI version of Github
  
-(link: http://http://myth.io/ text: Myth CSS)—a simple CSS preprocessor that allows for the use of native CSS variables
+(link: http://myth.io/ text: Myth CSS)—a simple CSS preprocessor that allows for the use of native CSS variables
+
+(link: http://sass-lang.com/ text: SASS Language)—a full-featured CSS preprocessor
+
+(link: http://digitalocean.com/ text: DigitalOcean)—superior cloud-based hosting for devs, creators, and nerds

@@ -1,7 +1,7 @@
 // Widows
-$('article > p').each(function() {
-  $(this).html($(this).html().replace(/\s([^\s<]+)\s*$/,'&nbsp;$1'));
-});
+// $('p').each(function() {
+//   $(this).html($(this).html().replace(/\s([^\s<]+)\s*$/,'&nbsp;$1'));
+// });
 
 
 
@@ -96,27 +96,52 @@ $('.lazy').each(function(index, el) {
 
 
 
-// PARALLAX
-if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-  $('header').removeClass('.parallax');
-  $('section').removeClass('.parallax');
-} else {
-  // PARALLAX
-  // Add parallax scrolling to all images in .paralax-image container
-  $('.parallax').each(function(){
-    // only put top value if the window scroll has gone beyond the top of the image
-	    if ($(this).offset().top = $(window).scrollTop()) {
-			// Get ammount of pixels the image is above the top of the window
-			var difference = $(window).scrollTop() - $(this).offset().top;
-      // Top value of image is set to half the amount scrolled
-      // (this gives the illusion of the image scrolling slower than the rest of the page)
-      var half = (difference / 2) + 'px',
-          transform = 'translate3d( 0, ' + half + ',0)';
+// Simple parallax background
+var cover = document.querySelector('.parallax'),
+  coverHeight = Math.round(cover.offsetHeight),
+  translate,
+  parallaxThreshold = 3;
 
-      $(this).find('.cover-image').css('transform', transform);
-		} else {
-      // if image is below the top of the window set top to 0
-			$(this).find('.cover-image').css('transform', 'translate3d(0,0,0)');
-    }
+function parallax() {
+  if (window.scrollY < coverHeight) {
+    translate = Math.round(window.scrollY / parallaxThreshold);
+    window.requestAnimationFrame(function() {
+      cover.style.transform = 'translateY(' + translate + 'px)';
+    });
+  }
+}
+
+parallax();
+
+window.addEventListener('scroll', parallax, false);
+
+window.addEventListener('resize', debounce(function() {
+  coverHeight = Math.round(cover.offsetHeight);
+}, 800));
+
+function debounce(fn, wait) {
+  var timeout;
+  return function() {
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      fn.apply(this, arguments)
+    }, (wait || 1));
+  }
+}
+
+
+
+// Simple slider
+$(document).ready(function(){
+  $('.slider').slick({
+    draggable: true,
+    arrows: true,
+    dots: true,
+    fade: false,
+    speed: 900,
+    infinite: true,
+    autoplay: true,
+    slidesPerView: 1,
+    touchThreshold: 100
   });
-};
+});

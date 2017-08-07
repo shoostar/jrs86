@@ -2,7 +2,7 @@ Imagewidth: w--3of5
 
 ----
 
-Imageoffset: o--1of5
+Imageoffset: o--2of5
 
 ----
 
@@ -10,4 +10,4 @@ Shadowed: false
 
 ----
 
-Sort: 13
+Sort: 12

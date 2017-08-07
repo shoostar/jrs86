@@ -1,4 +1,4 @@
-Title: Quotes to (not) live by
+Title: Quotes to (maybe not) live by
 
 ----
 
@@ -20,9 +20,6 @@ Related:
 
 Text: 
 
-** "The vegetables have become fruitcakes."**
-*—referencing Chester Bennington's 2017 fan outlash*
-
 ** "I am a designer, not a fucking screwdriver."**
 *—Anonymous*
 
@@ -31,3 +28,6 @@ Text:
 
 **"You'll have to speak louder, I'm wearing a towel."**
 *—Homer J. Simpson*
+
+**"Offense wins games; defense wins championships."**
+*—Coaches who like to win*

@@ -1,10 +1,13 @@
 <?php snippet('header-simple') ?>
 
 <style>
-article > header {
-  margin-bottom: 6.0975em;
-  padding: 0;
-}
+  article > header {
+    margin-bottom: 4em;
+    padding: 0;
+  }
+  .first-paragraph {
+    font-size: 150%;
+  }
 </style>
 
 <section class="row">
@@ -12,12 +15,11 @@ article > header {
     <article>
 
       <header>
-        <h4><?= $page->title()->html() ?></h4>
+        <h3><?= $page->title()->html() ?></h3>
+        <span class="first-paragraph"><?= $page->excerpt()->kirbytext() ?></span>
       </header>
 
       <?= $page->text()->kirbytext() ?>
-
-
 
       <?php if($page->related()->isNotEmpty()): ?>
       <nav>
