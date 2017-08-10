@@ -211,8 +211,9 @@ p, ul, ol, dl, blockquote, pre {
 }
 pre, code {
   font-family: "inconsolata", monospace;
-  background: color(var(--black) tint(90%));
-  border-radius: 0.125rem;
+  background: color(var(--black) tint(5%));
+  color: rgb(100, 255, 100);
+  border-radius: 0.0625rem;
   overflow-wrap: break-word !important;
   word-wrap: break-word !important;
 }

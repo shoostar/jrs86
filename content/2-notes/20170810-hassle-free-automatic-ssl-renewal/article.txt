@@ -1,0 +1,42 @@
+Title: Hassle-free Automatic SSL Renewal (and a quick primer to crontab)
+
+----
+
+Date: 2017-08-10
+
+----
+
+Linktext: Keep your domain secure
+
+----
+
+Excerpt: I've been trying to automate the renewal of a handful of different SSLs for some domains I manage, after having one not renew on time recently
+
+----
+
+Related: 
+
+----
+
+Text: 
+
+I had previously attempted to setup a task in `cron.daily` but that way apparently sucks and shouldn't be used anymore. For whatever reason, the task was never able to actually find the certificates themselves. I'd imagine I did something wrong here and it probably would work just fine, but after a couple hours of playing around this morning, I found an easier way to go about it. I was able to get all of my applicable URLs to update and push proper log info to verify they updated, and of course the updated certs were also there (at this point, the logs will now just say that the task was optionally aborted, because the cert doesn't need to renew again).
+
+##### My Setup
+I've my own dedicated server(s) through (link: https://www.digitalocean.com/ text: DigitalOcean) (highly recommended), and while any Certificate Authority (CA) will do, I'm using (link: https://letsencrypt.org/ text: Let's Encrypt) here because it's so fast/easy to set up a certificate with them, and it's FREE. This tip will not cover setting up your cert; rather, it assumes you've already got an SSL up and running. The following scheduled task will run daily at 2am, and will simply abort the renewal process if it doesn't need to be renewed (usually certs expire every 60 or 90 days if no extended authority is applied; so, a generic SSL certificate).
+
+##### The Process
+SSH into your server (or if it's a CPanel-based setup, there should be a "Schedule a CRON Task" option somewhere). `sudo crontab -e` to edit the task list. Add a new task `0 2 * * * /etc/letsencrypt certonly -d yourdomain.com -d <www.yourdomain> -d <subdomain.yourdomain> &>/dev/crontab.log && service apache2 restart` to the last line of the file that opens in your terminal, and then save the file (`CTRL + O`) and exit. It's best at this point to just go ahead and run `service apache2 restart`.
+
+`0 2 * * *` refers to the time and date at which your scheduled task should run. In this order: MINUTE (0-59), HOUR (0-23), DAY of month (1-31), MONTH (1-12), and DAY of WEEK (0-6, Sunday=0). The `*` simply means "all values". Basically, `0 2 * * *` means 2:00AM, every day, every month. The way this task is setup in the example above, it will run every day at 2:00AM and update a certificate on all domains `-d` listed, output a simple text log into your server's root (not the public root, but the actual root `logs` directory), and then reboot the Apache instance (or if you're using Nginx, `service nginx restart`).
+
+##### Adapting for a Different CA
+Replace `/etc/letsencrypt certonly` with whatever your cert handler installation `PATH` is and your CA's recommended update string. So, it could be something like `/usr/bin/certbot renew -d <yourdomain>`, or `./letsencrypt-auto` and then you can attach some more parameters in there if needed (don't forget ALL your associated (sub)domains `-d <yourdomain>`!). The last couple bits, &>/dev/crontab.log && service apache2 restart just tells the server to output a log file every time the task runs, and then restarts the server (LAMP on Ubuntu 16.04 server config; very standard). A restart is never a bad idea, and assuming you're not running on some seriously shit hardware, it should take only seconds to completely reboot.
+
+##### Testing
+If you're looking to test this to make sure your task is running properly, you'll simply need to let the task run its course. Since there's native way to force a cron task to run at-will (the theory behind cron is that it runs scheduled tasks. It kinda wants to stick to a... schedule), you can simply set the time/date markers to something like, a couple minutes ahead of the current time, save the crontab, and then do a quick reboot. Let the task run, and then check for your log output to verify that it ran. Simply having a log at all (timestamped within seconds of the scheduled task) will verify that it at least tried doing something. You'll either read that it successfully updated and output new certificates, that it optionally aborted (near the end of the log, it'll state that renewal isn't needed), or that it failed for some other reason (usually because you specified the wrong `PATH` or other parameters).
+
+To test this new cron task, let's first start by assuming the time is 2:30PM. Set your time/date markers to something like `32 14 * * *`, and let 'er rip! The task should run at 2:32; if all is well, simply re-open the crontab, and set the time to something more reasonable. I chose 2:00AM `0 2 * * *` so that the server would attempt a cert renewal and/or reboot at a time in which the site is seeing the least amount of traffic. Again, a server reboot should only take seconds, but it's best to go this route anyway. Taking care to prime the visitor's browser cache when they first visit a site is very helpful, which should make for a seamless experience for any visitors on your site during the reboot. Not everyone practices this however, so generally just picking a low-traffic time to run the task will suffice.
+
+##### Done
+Sorry that this post doesn't cover the basics of setting up cron tasks; I honestly don't know all the finer points, only enough to be dangerous with a few things here and there. There are many useful and helpful resources out there, so have a look around on StackExchange or your VPN's official documentation. DigitalOcean has quite an extensive library of articles for setting up SSLs on all sorts of server configs.

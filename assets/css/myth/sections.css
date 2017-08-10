@@ -28,7 +28,15 @@ article:not(:last-of-type) {
     article nav a {
       display: block;
     }
-
+  article p a:link, article p a:visited {
+    color: color(var(--black) tint(100%));
+    transition: all ease-in-out 0.1s !important;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+    article p a:hover, article p a:focus, article p a:active {
+      color: color(var(--white) alpha(20%));
+    }
 
 
 /* Parallax bullshit */
