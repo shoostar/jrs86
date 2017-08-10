@@ -96,35 +96,41 @@ $('.lazy').each(function(index, el) {
 
 
 
-// Simple parallax background
-var cover = document.querySelector('.parallax'),
-  coverHeight = Math.round(cover.offsetHeight),
-  translate,
-  parallaxThreshold = 3;
+// User agent blocks parallax script (add other shit here if/when needed)
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+  $('header').removeClass('.parallax');
+} else {
 
-function parallax() {
-  if (window.scrollY < coverHeight) {
-    translate = Math.round(window.scrollY / parallaxThreshold);
-    window.requestAnimationFrame(function() {
-      cover.style.transform = 'translateY(' + translate + 'px)';
-    });
+  // Simple parallax background
+  var cover = document.querySelector('.parallax'),
+    coverHeight = Math.round(cover.offsetHeight),
+    translate,
+    parallaxThreshold = 3;
+
+  function parallax() {
+    if (window.scrollY < coverHeight) {
+      translate = Math.round(window.scrollY / parallaxThreshold);
+      window.requestAnimationFrame(function() {
+        cover.style.transform = 'translateY(' + translate + 'px)';
+      });
+    }
   }
-}
 
-parallax();
+  parallax();
 
-window.addEventListener('scroll', parallax, false);
+  window.addEventListener('scroll', parallax, false);
 
-window.addEventListener('resize', debounce(function() {
-  coverHeight = Math.round(cover.offsetHeight);
-}, 800));
+  window.addEventListener('resize', debounce(function() {
+    coverHeight = Math.round(cover.offsetHeight);
+  }, 800));
 
-function debounce(fn, wait) {
-  var timeout;
-  return function() {
-    clearTimeout(timeout);
-    timeout = setTimeout(function() {
-      fn.apply(this, arguments)
-    }, (wait || 1));
+  function debounce(fn, wait) {
+    var timeout;
+    return function() {
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+        fn.apply(this, arguments)
+      }, (wait || 1));
+    }
   }
 }
