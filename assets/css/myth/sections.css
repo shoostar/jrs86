@@ -53,36 +53,6 @@ article:not(:last-of-type) {
 
 
 
-  /* Covers, use like any other template-area, except with a specified height */
-  .cover-container {
-    min-height: 31.8em;
-    height: 100%;
-    position: relative;
-    overflow: hidden !important;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-    .cover-subcontainer {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      height: 100%;
-      width: 100%;
-    }
-    .cover-image {
-      position: absolute;
-      z-index: 0;
-      height: 100%;
-      overflow: hidden;
-    }
-    .cover-content {
-      position: relative;
-      z-index: 1;
-    }
-
-
-
 .resume {
   display: inline-block;
 }
