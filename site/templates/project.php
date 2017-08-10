@@ -25,7 +25,7 @@ data-src="<?php echo $image->url() ?>"
 
 <section class="row">
   <?php foreach($page->files()->sortBy('sort', 'asc')->not('header.jpg', 'thumb.jpg') as $file): ?>
-  <figure class="<?php echo $file->imageWidth() ?> <?php echo $file->imageOffset() ?> pinned"><img src="<?php echo $file->url() ?>" class="<?php if ($file->shadowed() == 'true') { echo "shadowed "; } else{ echo ""; } ?>" /></figure>
+  <figure class="<?php echo $file->imageWidth() ?> <?php echo $file->imageOffset() ?> pinned"><img src="<?php echo $file->url() ?>" class="<?php if ($file->shadowed() == 'true') { echo "shadowed "; } else{ echo ""; } ?> b-lazy b-loaded" /></figure>
   <?php endforeach ?>
 </section>
 

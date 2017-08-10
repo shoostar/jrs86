@@ -38,6 +38,17 @@
       .lazy-loaded {
         opacity: 1 !important;
       }
+      .b-lazy {
+        -webkit-transition: opacity 500ms ease-in-out;
+           -moz-transition: opacity 500ms ease-in-out;
+             -o-transition: opacity 500ms ease-in-out;
+                transition: opacity 500ms ease-in-out;
+        max-width: 100%;
+        opacity: 0;
+      }
+      .b-lazy.b-loaded {
+        opacity: 1;
+      }
     </style>
   </head>
 
