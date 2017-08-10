@@ -120,7 +120,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: color(var(--black) shade(81.3%));
-  background-image: url('../img/jrs86-logo.svg');
+  background-image: url('../images/jrs86-logo.svg');
   background-attachment: fixed;
   background-position: 50% 50%;
   background-repeat: no-repeat;
