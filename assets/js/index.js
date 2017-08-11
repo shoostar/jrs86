@@ -96,6 +96,31 @@ $('.lazy').each(function(index, el) {
 
 
 
+// Simple ticker
+jQuery(document).ready(function($) {
+  var ticker = function() {
+    var window_width = window.innerWidth;
+    var speed = 12 * window_width;
+    $("#ticker li:first").animate(
+      { left: "-980px" },
+      speed,
+      "linear",
+      function() {
+        $(this)
+          .detach()
+          .appendTo("#ticker ul")
+          .css("left", "100%");
+        ticker();
+      }
+    );
+  };
+  if ($("#ticker li").length > 1) {
+    ticker();
+  }
+});
+
+
+
 // User agent blocks parallax script (add other shit here if/when needed)
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   $('header').removeClass('.parallax');

@@ -74,6 +74,12 @@
 
     <div class="cover parallax lazy" data-src="assets/images/profile-bg.jpg"></div>
 
+    <!-- <div id="ticker">
+    	<ul>
+        <li>**WEBSITE STILL UNDER CONSTRUCTION**</li>
+      </ul>
+    </div> -->
+
     <header class="row cover-container">
       <div class="w--3of5 pinned">
         <h3 class="heading"><a class="glitch-btn modal-btn" href="<?= url() ?>" rel="home">
