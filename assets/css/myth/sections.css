@@ -30,7 +30,6 @@ article:not(:last-of-type) {
     }
   article p a:link, article p a:visited {
     color: color(var(--black) tint(100%));
-    transition: all ease-in-out 0.1s !important;
     text-decoration: underline;
     font-weight: 500;
   }
