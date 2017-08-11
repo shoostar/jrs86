@@ -29,4 +29,4 @@ data-src="<?php echo $image->url() ?>"
   <?php endforeach ?>
 </section>
 
-<?php snippet('footer-simple') ?>
+<?php snippet('footer') ?>

@@ -11,4 +11,4 @@
   <?php snippet('showcase', ['limit' => 12]) ?>
 </section>
 
-<?php snippet('footer-simple') ?>
+<?php snippet('footer') ?>
