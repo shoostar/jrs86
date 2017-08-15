@@ -1,0 +1,17 @@
+{
+  "name": "JRS86 portfolio",
+  "description": "Jon Schuster's graphic design portfolio",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "icons": {
+    "128": "icon_128.png"
+  },
+  "app": {
+    "urls": [
+      "https://jrs86.com/"
+    ],
+    "launch": {
+      "web_url": "https://jrs86.com/"
+    }
+  }
+}

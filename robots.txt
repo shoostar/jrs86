@@ -3,5 +3,6 @@ Disallow: /content/*.txt$
 Disallow: /kirby/
 Disallow: /site/
 Disallow: /panel/
+Disallow: /side-projects/
 Disallow: /*.md$
 Sitemap: /sitemap.xml
