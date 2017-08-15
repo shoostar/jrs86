@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ca281b" />
     <?= css('assets/css/index.css') ?>
-    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js" defer></script><![endif]-->
 
     <!-- UPDATED GOOGLE OPTIMIZE/ANALYTICS CODE -->
     <?= js('assets/js/modernizr-custom.js') ?>
