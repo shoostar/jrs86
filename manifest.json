@@ -1,6 +1,10 @@
 {
+  "lang": "en",
+  "dir": "ltr",
   "name": "JRS86 portfolio",
   "description": "Jon Schuster's graphic design portfolio",
+  "short_name": "JRS86",
+  "theme_color": "#ca281b",
   "version": "1.0.0",
   "manifest_version": 1,
   "icons": {
