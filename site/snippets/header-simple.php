@@ -9,10 +9,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#ca281b" />
     <?= css('assets/css/index.css') ?>
+
     <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js" defer></script><![endif]-->
+    <?= js('assets/js/modernizr-custom.js', ['defer' => true]) ?>
 
     <!-- UPDATED GOOGLE OPTIMIZE/ANALYTICS CODE -->
-    <?= js('assets/js/modernizr-custom.js') ?>
     <style>.async-hide { opacity: 0 !important} </style>
     <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
     h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
