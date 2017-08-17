@@ -74,12 +74,6 @@
   <main>
     <a class="skip-main" href="#main" tabindex="-1">Skip to main content</a>
 
-    <!-- <div id="ticker">
-    	<ul>
-        <li>**WEBSITE STILL UNDER CONSTRUCTION**</li>
-      </ul>
-    </div> -->
-
     <header class="row">
       <div class="w--3of5 pinned">
         <h3 class="heading"><a class="glitch-btn modal-btn" href="<?= url() ?>" rel="home">

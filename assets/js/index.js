@@ -48,34 +48,6 @@ $('figcaption').hover( function() {
 
 
 
-// SO MUCH ROOM FOR ACTIVITIES!!!
-function Quote(text, author) {
-  this.text = text;
-  this.author = author;
-}
-
-var quotes = [];
-quotes.push(new Quote("thinking about what to eat for lunch", "Will work for homemade apple pie"));
-quotes.push(new Quote("keeping his suey chopped", "He doesn't really care for Chinese food"));
-quotes.push(new Quote("listening to obnoxiously loud music", "Very metalhead, but listens to anything"));
-
-var getNewRandomQuote = function() {
-  return quotes[Math.floor(Math.random() * quotes.length)];
-};
-
-$(document).ready(function() {
-  var displayNewQuote = function() {
-    var newQuote = getNewRandomQuote();
-
-    $("#text").html(newQuote.text);
-    $("#author").html(newQuote.author);
-  };
-
-  displayNewQuote();
-});
-
-
-
 // Lazy load backgrounds
 function lazyLoadBg(el, imageSource) {
   $('<img/>').attr('src', imageSource).on({
@@ -92,31 +64,6 @@ function lazyLoadBg(el, imageSource) {
 
 $('.lazy').each(function(index, el) {
   lazyLoadBg(el, $(el).data('src'));
-});
-
-
-
-// Simple ticker
-jQuery(document).ready(function($) {
-  var ticker = function() {
-    var window_width = window.innerWidth;
-    var speed = 12 * window_width;
-    $("#ticker li:first").animate(
-      { left: "-980px" },
-      speed,
-      "linear",
-      function() {
-        $(this)
-          .detach()
-          .appendTo("#ticker ul")
-          .css("left", "100%");
-        ticker();
-      }
-    );
-  };
-  if ($("#ticker li").length > 1) {
-    ticker();
-  }
 });
 
 

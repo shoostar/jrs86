@@ -74,19 +74,13 @@
   <main>
     <a class="skip-main" href="#main" tabindex="-1">Skip to main content</a>
 
-    <!-- <div id="ticker">
-    	<ul>
-        <li>**WEBSITE STILL UNDER CONSTRUCTION**</li>
-      </ul>
-    </div> -->
-
     <header class="row">
       <div class="w--3of5 pinned">
         <h3 class="heading"><a class="glitch-btn modal-btn" href="<?= url() ?>" rel="home">
           <span class="glitch super-glitch" data-text="JRS⁸⁶">
             <span class="pro">JRS<sup>86</sup></span>
           </span>
-        </a> builds durable brands. <span id="author">He does other things, too</span>.</h3>
+        </a> builds durable brands.</h3>
       </div>
       <div class="w--2of5 text-right pinned">
         <?php snippet('menu') ?>

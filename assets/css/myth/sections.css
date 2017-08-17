@@ -106,30 +106,3 @@ footer.temp {
   .activity-btn::before {
     content: '\00a0+\00a0';
   }
-
-
-
-/* TICKER */
-#ticker{
-	background: var(--black);
-  width: 100%;
-}
-
-#ticker ul{
-	width: 100%;
-	position: relative;
-	overflow: hidden;
-  height: 2em;
-}
-
-#ticker li{
-  display: inline-block;
-  height: 2em;
-  width: 1000px;
-	position: absolute;
-  padding: 0.5em 0;
-	top: 0;
-	left: 100%;
-	text-align: center;
-	list-style: none;
-}
