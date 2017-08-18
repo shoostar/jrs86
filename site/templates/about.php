@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header-simple') ?>
 
 <section class="row">
   <div class="w--3of5 pinned">

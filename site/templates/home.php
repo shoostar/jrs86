@@ -1,4 +1,4 @@
-<?php snippet('header') ?>
+<?php snippet('header-brand') ?>
 
   <main class="main" role="main">
 

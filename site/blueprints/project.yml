@@ -48,6 +48,11 @@ fields:
     type:  text
     width: 1/2
 
+  description:
+    label: Short Description
+    type:  text
+    width: 1/2
+
   categories:
     label: Categories
     type: checkboxes

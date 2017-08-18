@@ -29,7 +29,7 @@ header nav {
       display: block;
       width: 0;
       height: 0.125em;
-      background: var(--red);
+      background: var(--white);
       position: relative;
       top: -0.5em;
       transition: width 0.1s ease-in-out;

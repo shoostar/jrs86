@@ -1,4 +1,4 @@
-<?php snippet('header-home') ?>
+<?php snippet('header-brand') ?>
 
 <style>
 .bottomed {

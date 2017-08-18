@@ -2,8 +2,8 @@
   <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
     <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
     <meta name="description" content="<?= $site->description()->html() ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -74,13 +74,13 @@
   <main>
     <a class="skip-main" href="#main" tabindex="-1">Skip to main content</a>
 
-    <header class="row">
+    <header class="row cover-container">
       <div class="w--3of5 pinned">
         <h3 class="heading"><a class="glitch-btn modal-btn" href="<?= url() ?>" rel="home">
           <span class="glitch super-glitch" data-text="JRS⁸⁶">
             <span class="pro">JRS<sup>86</sup></span>
           </span>
-        </a></h3>
+        </a> builds durable brands.</h3>
       </div>
       <div class="w--2of5 text-right pinned">
         <?php snippet('menu') ?>
