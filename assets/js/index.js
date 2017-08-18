@@ -48,7 +48,7 @@ $('figcaption').hover( function() {
 
 
 
-// Lazy load backgrounds
+// Lazy-load backgrounds
 function lazyLoadBg(el, imageSource) {
   $('<img/>').attr('src', imageSource).on({
     load: function() {
@@ -64,6 +64,28 @@ function lazyLoadBg(el, imageSource) {
 
 $('.lazy').each(function(index, el) {
   lazyLoadBg(el, $(el).data('src'));
+});
+
+
+
+// Load/fade in on scroll
+function checkElementLocation() {
+  var $window = $(window);
+  var bottom_of_window = $window.scrollTop() + $window.height();
+
+  $(".elem").each(function(i) {
+    var $that = $(this);
+    var top_of_object = $that.position().top + 200;
+
+    if (bottom_of_window > top_of_object) {
+      $(this).addClass("fade-in");
+    }
+  });
+}
+checkElementLocation();
+
+$(window).on("scroll", function() {
+  checkElementLocation();
 });
 
 

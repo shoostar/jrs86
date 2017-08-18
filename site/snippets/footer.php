@@ -8,11 +8,14 @@
 
 <script src="//code.jquery.com/jquery-3.2.1.min.js" defer></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js" defer></script>
-<script src="<?= url() ?>/assets/js/blazy.min.js" defer></script>
+<script src="<?= url() ?>/assets/js/blazy.min.js"></script>
 <script>
   ;(function() {
     // Initialize
-    var bLazy = new Blazy();
+    var bLazy = new Blazy({
+        selector: 'img'
+      , offset: -100
+    });
   })();
 </script>
 <script>

@@ -21,10 +21,9 @@ data-src="<?= $image->url() ?>"
 
 ></div>
 
-
 <section class="row">
   <?php foreach($page->files()->sortBy('sort', 'asc')->not('header.jpg', 'thumb.jpg') as $file): ?>
-  <figure class="<?= $file->imageWidth() ?> <?= $file->imageOffset() ?> pinned"><img src="<?= $file->url() ?>" class="<?php if ($file->shadowed() == 'true') { echo "shadowed "; } else{ echo ""; } ?> b-lazy b-loaded" /></figure>
+  <figure class="<?= $file->imageWidth() ?> <?= $file->imageOffset() ?> pinned"><img src=data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw== data-src="<?= $file->url() ?>" class="<?php if ($file->shadowed() == 'true') { echo "shadowed "; } else{ echo ""; } ?> b-lazy" /></figure>
   <?php endforeach ?>
 </section>
 

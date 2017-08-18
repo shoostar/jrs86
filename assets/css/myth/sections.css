@@ -106,3 +106,25 @@ footer.temp {
   .activity-btn::before {
     content: '\00a0+\00a0';
   }
+
+
+
+  .elem {
+
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(2vh);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .to-fade-in {
+    opacity: 0;
+  }
+    .to-fade-in.fade-in {
+      animation: fade-in 0.318s forwards ease-out;
+    }
