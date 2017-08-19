@@ -1,13 +1,7 @@
 header nav {
   position: relative;
   z-index: 100;
-  text-align: left;
 }
-  @media screen and (min-width: 1200px) {
-    header nav {
-      text-align: right;
-    }
-  }
   header nav a {
     display: inline-block;
     border-bottom: none !important;

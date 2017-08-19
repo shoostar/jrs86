@@ -81,8 +81,6 @@
             <span class="pro">JRS<sup>86</sup></span>
           </span>
         </a> <?= $page->description() ?></h3>
-      </div>
-      <div class="w--2of5 text-right pinned">
         <?php snippet('menu') ?>
       </div>
     </header>

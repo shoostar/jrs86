@@ -83,8 +83,6 @@
             <span class="pro">JRS<sup>86</sup></span>
           </span>
         </a> builds durable brands.</h3>
-      </div>
-      <div class="w--2of5 text-right pinned">
         <?php snippet('menu') ?>
       </div>
     </header>

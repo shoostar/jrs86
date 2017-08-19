@@ -40,13 +40,10 @@ var Glitch = function() {
         _this._turb.setAttribute('baseFrequency', _this._turbVal.val + ' ' + _this._turbValX.val);
       }
     });
-
     this.timeline.to(this._turbValX, 0.1, {
       val: 0.3,
       ease: Power0.easeNone
     }, 0.25);
-
-
   };
   return Glitch;
 }();
@@ -56,7 +53,7 @@ new Glitch();
 
 // .portfolio-item background colors
 $('figcaption').hover( function() {
-    $(this).css({ "background-color" : $(this).attr('data-color') });
+  $(this).css({ "background-color" : $(this).attr('data-color') });
 });
 
 
