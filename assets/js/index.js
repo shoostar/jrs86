@@ -1,7 +1,20 @@
-// Widows
-// $('p').each(function() {
-//   $(this).html($(this).html().replace(/\s([^\s<]+)\s*$/,'&nbsp;$1'));
-// });
+// No widows in article paragraphs
+$('article p').each(function() {
+  $(this).html($(this).html().replace(/\s([^\s<]+)\s*$/,'&nbsp;$1'));
+});
+
+
+
+// Debounce timing
+function debounce(fn, wait) {
+  var timeout;
+  return function() {
+    clearTimeout(timeout);
+    timeout = setTimeout(function() {
+      fn.apply(this, arguments)
+    }, (wait || 1));
+  }
+}
 
 
 
@@ -68,63 +81,25 @@ $('.lazy').each(function(index, el) {
 
 
 
-// Load/fade in on scroll
-function checkElementLocation() {
-  var $window = $(window);
-  var bottom_of_window = $window.scrollTop() + $window.height();
-
-  $(".elem").each(function(i) {
-    var $that = $(this);
-    var top_of_object = $that.position().top + 200;
-
-    if (bottom_of_window > top_of_object) {
-      $(this).addClass("fade-in");
-    }
-  });
-}
-checkElementLocation();
-
-$(window).on("scroll", function() {
-  checkElementLocation();
-});
-
-
-
 // User agent blocks parallax script (add other shit here if/when needed)
 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
   $('header').removeClass('.parallax');
 } else {
 
   // Simple parallax background
-  var cover = document.querySelector('.parallax'),
-    coverHeight = Math.round(cover.offsetHeight),
-    translate,
-    parallaxThreshold = 3;
+  var parallaxElements = $(".parallax"),
+      parallaxQuantity = parallaxElements.length;
 
-  function parallax() {
-    if (window.scrollY < coverHeight) {
-      translate = Math.round(window.scrollY / parallaxThreshold);
-      window.requestAnimationFrame(function() {
-        cover.style.transform = 'translateY(' + translate + 'px)';
-      });
-    }
-  }
+  $(window).on("scroll", function() {
+    window.requestAnimationFrame(function() {
+      for (var i = 0; i < parallaxQuantity; i++) {
+        var currentElement = parallaxElements.eq(i);
+        var scrolled = $(window).scrollTop();
 
-  parallax();
-
-  window.addEventListener('scroll', parallax, false);
-
-  window.addEventListener('resize', debounce(function() {
-    coverHeight = Math.round(cover.offsetHeight);
-  }, 800));
-
-  function debounce(fn, wait) {
-    var timeout;
-    return function() {
-      clearTimeout(timeout);
-      timeout = setTimeout(function() {
-        fn.apply(this, arguments)
-      }, (wait || 1));
-    }
-  }
+        currentElement.css({
+          transform: "translate3d(0," + scrolled * 0.318 + "px, 0)"
+        });
+      }
+    });
+  });
 }
