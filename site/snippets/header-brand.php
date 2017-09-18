@@ -2,8 +2,8 @@
   <html lang="<?= site()->language() ? site()->language()->code() : 'en' ?>">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?= url() ?>/assets/images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="<?= url() ?>/assets/images/favicon.ico" type="image/x-icon">
     <title><?= $site->title()->html() ?> | <?= $page->title()->html() ?></title>
     <meta name="description" content="<?= $site->description()->html() ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
