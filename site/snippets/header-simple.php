@@ -80,7 +80,7 @@
           <span class="glitch super-glitch" data-text="JRS⁸⁶">
             <span class="pro">JRS<sup>86</sup></span>
           </span>
-        </a> builds durable brands.</h3>
+        </a> builds durable brands</h3>
         <?php snippet('menu') ?>
       </div>
     </header>
