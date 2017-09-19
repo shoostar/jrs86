@@ -59,7 +59,7 @@ fields:
     columns: 4
     options:
       stationery: stationery
-      branding concept: branding concept
+      branding concepts: branding concepts
       packaging concepts: packaging concepts
       branding: branding
       product packaging: product packaging
